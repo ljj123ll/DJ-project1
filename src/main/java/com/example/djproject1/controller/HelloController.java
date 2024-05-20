@@ -9,7 +9,7 @@ public class HelloController {
     public String hello(String nickname, String phone){
         System.out.println(phone);
         System.out.println("你好世界");
-        return "Love the 11111222223333344445555566777" +nickname;
+        return "Love the 111112222233333444455555667777" +nickname;
     }
 
 }
