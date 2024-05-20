@@ -8,7 +8,8 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello(String nickname, String phone){
         System.out.println(phone);
-        return "Love the 11111222223333344445555566" +nickname;
+        System.out.println("你好世界");
+        return "Love the 11111222223333344445555566777" +nickname;
     }
 
 }
