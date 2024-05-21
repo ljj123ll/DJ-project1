@@ -47,6 +47,25 @@
 		</dependency>
 
 
+		<!-- MyBatis-Plus 依赖 -->
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-boot-starter</artifactId>
+			<version>3.5.3.1</version> <!-- 请根据需要选择合适的版本 -->
+		</dependency>
+
+		<!-- MySQL 驱动依赖  -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+		</dependency>
+		<!-- 数据库连接池 druid  -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.2.17</version>
+		</dependency>
 
 
 	</dependencies>
